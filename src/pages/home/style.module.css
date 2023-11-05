@@ -1,0 +1,25 @@
+.sliderBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    position: relative;
+    background: #F9F9F9;
+}
+
+.sliderLArrow{
+    position: absolute;
+    top: 47%;
+    left: 4%;
+    width: 70px;
+    cursor: pointer
+}
+
+.sliderRArrow{
+    position: absolute;
+    top: 47%;
+    right: 4%;
+    width: 70px;
+    cursor: pointer;
+}
